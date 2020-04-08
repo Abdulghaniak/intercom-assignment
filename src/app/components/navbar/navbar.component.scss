@@ -1,0 +1,21 @@
+.toolbar {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  background-color: #fffeff;
+  img {
+    margin: 0 16px;
+  }
+  a.header-nav-logo {
+    font-size: 20px;
+    color: #000;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

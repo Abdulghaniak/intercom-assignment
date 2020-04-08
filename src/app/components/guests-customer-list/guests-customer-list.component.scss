@@ -1,0 +1,15 @@
+.table-wrapper {
+  position: relative;
+  height: 80vh;
+  overflow: auto;
+  display: block;
+  text-align: center;
+  .table thead th {
+    border-bottom: 5px;
+  }
+}
+
+.module-header {
+  text-align: center;
+  font-size: 45px;
+}

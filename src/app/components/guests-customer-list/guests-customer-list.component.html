@@ -1,0 +1,22 @@
+<h1 class="module-header">Take Home Test</h1>
+
+<div class="table-wrapper mt-4">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">User ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Distance from Office</th>
+        <th scope="col">Customer Coordinates</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let customer of customersFilteredArray">
+        <th scope="row">{{ customer.user_id }}</th>
+        <th scope="row">{{ customer.name }}</th>
+        <th scope="row">{{ customer.distance }}</th>
+        <th scope="row">{{ customer.latitude }}, {{ customer.longitude }}</th>
+      </tr>
+    </tbody>
+  </table>
+</div>
